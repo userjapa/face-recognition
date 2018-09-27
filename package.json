@@ -1,10 +1,32 @@
 {
-  "name": "face-recognition",
+  "name": "face-recognition-test",
   "version": "1.0.0",
   "description": "Face Recognition Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app --exec babel-node",
+    "build": "babel app --out-dir dist",
+    "start": "node dist"
+  },
+  "dependencies": {
+    "face-recognition": "^0.9.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4"
+  },
+  "babel": {
+    "presets": [
+      "stage-2",
+      "es2015"
+    ],
+    "plugins": [
+      "transform-async-to-generator"
+    ]
   },
   "repository": {
     "type": "git",
