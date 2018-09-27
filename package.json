@@ -1,0 +1,23 @@
+{
+  "name": "face-recognition",
+  "version": "1.0.0",
+  "description": "Face Recognition Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usuarioJapa/face-recognition.git"
+  },
+  "keywords": [
+    "face",
+    "recognition"
+  ],
+  "author": "userJapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usuarioJapa/face-recognition/issues"
+  },
+  "homepage": "https://github.com/usuarioJapa/face-recognition#readme"
+}
